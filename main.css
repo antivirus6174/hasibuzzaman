@@ -1,0 +1,798 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*nav_droper*/
+
+#nav_droper{
+	max-height: 100vh;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	background-color: #303030;
+	width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+nav ul{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2rem;
+	margin-left: 7%;
+}
+
+nav ul li{
+	margin-left: 8%;
+}
+i{
+	color: white;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px){
+	nav ul li{
+		margin-left: 4%;
+	}
+}
+@media only screen and (max-width: 768px){
+	nav ul{
+		margin:0;
+	}
+}
+
+
+
+/*droper*/
+#droper{
+	color: white;
+	height: 100vh;
+	padding-bottom: 5%;
+}
+
+#droper h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 8.5rem;
+}
+
+#droper p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	margin: 0% 0% 6% 0%;
+}
+
+#droper button{
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	background-color: #e8631c;
+	font-weight: bold;
+	color: white;
+	font-size: 1.3rem;
+	padding: 10px 45px;
+	border-radius: 6px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	transition: all 1.0s ease-in-out;
+}
+#droper button:hover{
+	background-color: #cf520f;
+}
+@media only screen and (max-width: 1024px){
+	#droper h1{
+		font-size: 6.3rem;
+	}
+	#droper p{
+		font-size: 1.3rem;
+	}
+	#droper button{
+		font-size: 1.1rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	#droper button{
+		padding: 6px 40px;
+	}
+}
+@media only screen and (max-width: 576px){
+	#droper{
+		padding-bottom: 20%;
+	}
+	#droper h1{
+		font-size: 5rem;
+	}
+	#droper p{
+		font-size: 1rem;
+	}
+	#droper button{
+		font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 320px){
+	#droper{
+		padding-bottom: 30%;
+	}
+	#droper h1{
+		font-size: 3.5rem;
+	}
+	#droper p{
+		font-size: 0.8rem;
+	}
+	#droper button{
+		font-size: 0.8rem;
+	}
+}
+
+
+
+
+/*upper*/
+#upper{
+	background-color: #e8631c;
+	color: white;
+	height: auto;
+	padding: 80px 0px 60px 0px;
+	background-image: url("desingbg.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+#upper h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+#upper p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	padding-bottom: 45px;
+}
+
+.upper1,.upper2,.upper3{
+	background-color: #303030;
+}
+.upper1 h2,.upper2 h2,.upper3 h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 20px 0px 8px 0px;
+}
+.woo,.woo1,.woo2{
+	cursor: pointer;
+}
+
+
+.upper1 p,.upper2 p,.upper3 p{
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 1.1rem !important;
+	padding-bottom:15px !important;
+}
+
+@media only screen and (max-width: 1024px){
+	#upper h1{
+		font-size: 4.7rem;
+	}
+	#upper p{
+		font-size: 1.3rem;
+	}
+	.upper1 p,.upper2 p,.upper3 p{
+		font-size: 1rem !important;
+		padding-bottom:10px !important;
+	}
+}
+@media only screen and (max-width: 768px){
+	#upper h1{
+		font-size: 4rem;
+	}
+	#upper p{
+		font-size: 1.2rem;
+	}
+	.upper1 h2,.upper2 h2,.upper3 h2{
+		font-size: 1.5rem;
+	}
+	.upper1 p,.upper2 p,.upper3 p{
+		font-size: 0.7rem !important;
+		padding-bottom:0px !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	#upper{
+		background-image: none;
+	}
+	#upper h1{
+		font-size: 3rem;
+	}
+	#upper p{
+		font-size: 0.7rem;
+	}
+	.upper1 p,.upper2 p,.upper3 p{
+		font-size: 1rem !important;
+	}
+	.woo,.woo1{
+		padding-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	#upper h1{
+		font-size: 2.5rem;
+	}
+	#upper p{
+		font-size: 0.6rem;
+	}
+}
+
+
+
+
+/*uppermiddle*/
+#uppermiddle{
+	background-color: #303030;
+	color: white;
+	height: auto;
+	padding: 80px 0px 60px 0px;
+	background-image: url("desingbg1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+#uppermiddle h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+#uppermiddle p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	padding-bottom: 45px;
+}
+#uppermiddle img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.woow,.woow1,.woow2{
+	background-color: #e8631c;
+	padding-bottom: 20px;
+	padding-top:80px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.woow h2,.woow1 h2,.woow2 h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding: 20px 0px 8px 0px;
+}
+
+.woow p,.woow1 p,.woow2 p{
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 1.2rem !important;
+	padding-bottom:15px !important;
+}
+
+.woow button,.woow1 button,.woow2 button{
+	background-color: #303030;
+	color: white;
+	padding: 5px 50px;
+	border: none;
+	border-radius:5px;
+	transition: all 1.0s ease-in-out;
+	font-size: 1.2rem;
+}
+.woow button:hover,.woow1 button:hover,.woow2 button:hover{
+	background-color: #232222;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#uppermiddle h1{
+		font-size: 4.7rem;
+	}
+	#uppermiddle p{
+		font-size: 1.3rem;
+	}
+	.uppermiddle1 p,.uppermiddle2 p,.uppermiddle3 p{
+		font-size: 1rem !important;
+		padding-bottom:10px !important;
+	}
+}
+@media only screen and (max-width: 768px){
+	.woow,.woow1,.woow2{
+		padding-top: 30px;
+	}
+	#uppermiddle h1{
+		font-size: 4rem;
+	}
+	#uppermiddle p{
+		font-size: 1.2rem;
+	}
+	.uppermiddle1 h2,.uppermiddle2 h2,.uppermiddle3 h2{
+		font-size: 1.5rem;
+	}
+	.uppermiddle1 p,.uppermiddle2 p,.uppermiddle3 p{
+		font-size: 0.7rem !important;
+		padding-bottom:0px !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	.woow,.woow1{
+		width: 80%;
+		margin-bottom: 50px;
+	}
+	.woow2{
+		width: 80%;
+	}
+	#uppermiddle{
+		background-image: none;
+	}
+	#uppermiddle h1{
+		font-size: 3.5rem;
+	}
+	#uppermiddle p{
+		font-size: 0.7rem;
+	}
+	.uppermiddle1 p,.uppermiddle2 p,.uppermiddle3 p{
+		font-size: 1rem !important;
+	}
+	.woo,.woo1{
+		padding-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	#uppermiddle h1{
+		font-size: 3rem;
+	}
+	#uppermiddle p{
+		font-size: 0.6rem;
+	}
+}
+
+
+
+
+/*uppermiddlelast*/
+#uppermiddlelast{
+	background-color: #303030;
+	color: white;
+	padding: 100px 0px 60px 0px;
+}
+#uppermiddlelast h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+#uppermiddlelast p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	padding-bottom: 100px;
+}
+
+#uppermiddlelast h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	font-weight: bold;
+}
+#uppermiddlelast1,#uppermiddlelast2,#uppermiddlelast3{
+	padding-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 1024px){
+	#uppermiddlelast h1{
+		font-size: 4.5rem;
+	}
+	#uppermiddlelast p{
+		font-size: 1.3rem;
+	}
+	#uppermiddlelast h2{
+		font-size: 2.5rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	#uppermiddlelast h1{
+		font-size: 4rem;
+	}
+	#uppermiddlelast p{
+		font-size: 1.1rem;
+	}
+	#uppermiddlelast h2{
+		font-size: 2.2rem;
+	}
+}
+@media only screen and (max-width: 576px){
+	#uppermiddlelast{
+		padding-top: 50px;
+	}
+	#uppermiddlelast h1{
+		font-size: 2.5rem;
+	}
+	#uppermiddlelast p{
+		font-size: 0.7rem;
+		padding-bottom: 50px;
+	}
+	#uppermiddlelast h2{
+		font-size: 1.8rem;
+	}
+}
+@media only screen and (max-width: 320px){
+	#uppermiddlelast h1{
+		font-size: 2.2rem;
+	}
+	#uppermiddlelast p{
+		font-size: 0.6rem;
+	}
+	#uppermiddlelast h2{
+		font-size: 1.6rem;
+	}
+}
+
+
+
+
+/*last*/
+#last{
+	height: 100vh;
+	background-image: url("img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 70px 0px 50px 0px;	
+}
+
+#last{
+	height: 100vh;
+}
+#last p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	padding-bottom: 50px;
+	word-spacing: 2.5px;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+}
+#last h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px){
+	#last h2{
+		font-size: 3.2rem;
+	}
+	#last p{
+		font-size: 1.3rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	#last h2{
+		font-size: 3rem;
+	}
+	#last p{
+		font-size: 1.1rem;
+	}
+}
+@media only screen and (max-width: 576px){
+	#last h2{
+		font-size: 2.8rem;
+	}
+	#last p{
+		font-size: 0.8rem;
+	}
+}
+@media only screen and (max-width: 320px){
+	#last h2{
+		font-size: 2.3rem;
+	}
+	#last p{
+		font-size: 0.6rem;
+	}
+}
+
+
+
+/*last1*/
+
+#lastoflast{
+	background-color: #e8631c;
+	height: 70vh;
+	color: white;
+	background-image: url("desingbg.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: top left;
+}
+
+#lastoflast h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+#lastoflast p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	padding: 20px 0px 20px 0px;
+}
+
+#lastoflast input{
+	width: 45%;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+}
+#lastoflast input[type="email"]{
+	padding:10px 20px;
+	font-family: 'Inconsolata', monospace;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#lastoflast p{
+		font-size: 1.1rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	#lastoflast input{
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 576px){
+	#lastoflast{
+		height: auto;
+		padding: 50px 0px 30px 0px;
+		background-image: none;
+	}
+	#lastoflast input{
+		width: 70%;
+	}
+	#lastoflast h1{
+		font-size: 2.5rem;
+	}
+	#lastoflast p{
+		font-size: 0.77rem;
+	}
+}
+@media only screen and (max-width: 320px){
+	#lastoflast input{
+		width: 100%;
+	}
+	#lastoflast h1{
+		font-size: 2rem;
+	}
+	#lastoflast p{
+		font-size: 0.65rem;
+	}
+}
+
+
+/*footer*/
+#footer{
+	background-color: #303030;
+	color: white;
+	height: 55vh;
+	padding: 50px 0px 30px 0px;
+}
+#footer a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.5s ease-in;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#footer a:hover{
+	border-bottom:1px solid white;
+}
+
+#footer h2{
+	font-size: 2rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+#footer1 h2{
+	padding-bottom: 15px;
+	font-size: 2.2rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+#footer1 p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+}
+#footer1 i{
+	font-size: 1.3rem;
+	margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#footer{
+		height: auto;
+	}
+	#footer h2{
+		font-size: 1.5rem;
+	}
+	#footer a{
+		font-size: 0.9rem;
+	}
+	#footer1 h2{
+		font-size: 1.8rem;
+	}
+	#footer1 p{
+		font-size: 0.7rem;
+	}
+	#footer1 i{
+		font-size: 1.1rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	#footer h2{
+		font-size: 1.2rem;
+	}
+	#footer a{
+		font-size: 0.7rem;
+	}
+	#footer1 h2{
+		font-size: 1.3rem;
+	}
+	#footer1 p{
+		font-size: 0.5rem;
+	}
+	#footer1 i{
+		font-size: 0.8rem;
+	}
+}
+@media only screen and (max-width: 576px){
+	#footer{
+		padding: 50px 0px 50px 0px;
+	}
+	#footer h2{
+		font-size: 1.8rem;
+	}
+	#footer a{
+		font-size: 1rem;
+	}
+	#footer1 h2{
+		font-size: 2.5rem;
+	}
+	#footer1 p{
+		font-size: 1rem;
+	}
+	#footer1 i{
+		font-size: 1.5rem;
+		margin-left: 20px;
+	}
+	#footer1,#footer2,#footer3{
+		padding-bottom: 40px;
+	}
+}
+@media only screen and (max-width: 320px){
+	#footer h2{
+		font-size: 1.4rem;
+	}
+	#footer a{
+		font-size: 1rem;
+	}
+	#footer1 h2{
+		font-size: 2rem;
+	}
+	#footer1 p{
+		font-size: 0.9rem;
+	}
+	#footer1 i{
+		font-size: 1.2rem;
+	}
+}
+
+
+/*never*/
+#never{
+	background-color:#e8631c ;
+	color: white;
+	height: auto;
+}
+#never .col-6 {
+    padding: 0px;
+}
+#never h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+	font-weight: bold;
+}
+#never p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3rem;
+	padding: 20px 0px 30px 0px;
+} 
+
+#never button{
+	border: none;
+	border-radius: 5px;
+	padding: 10px 40px;
+	background-color: #303030;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+#never1{
+	padding-left: 5%;
+}
+
+@media only screen and (max-width: 1024px){
+	#never h1{
+		font-size: 3.5rem;
+	}
+	#never p{
+		font-size: 1.2rem;
+	}
+	#never1 p{
+		font-size: 1.19rem;
+	}
+	#never button{
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	#never h1{
+		font-size: 2.7rem;
+	}
+	#never p{
+		font-size: 0.9rem;
+	}
+	#never1 h1{
+		font-size: 2.8rem;
+	}
+	#never1 p{
+		font-size: 0.8rem;
+	}
+}
+@media only screen and (max-width: 576px){
+	#never h1{
+		font-size: 1.2rem;
+	}
+	#never p{
+		padding: 0px;
+		font-size: 0.4rem;
+	}
+	#never1 h1{
+		font-size: 1.3rem;
+	}
+	#never1 p{
+		font-size: 0.4rem;
+	}
+	#never button{
+		font-size: 0.6rem;
+		padding: 5px 20px;
+	}
+}
+@media only screen and (max-width: 320px){
+	#never h1{
+		font-size: 1rem;
+	}
+	#never p{
+		padding: 0px;
+		font-size: 0.35rem;
+	}
+	#never1 h1{
+		font-size: 1.1rem;
+	}
+	#never1 p{
+		font-size: 0.33rem;
+	}
+	#never button{
+		font-size: 0.4rem;
+		padding: 5px 20px;
+	}
+}
